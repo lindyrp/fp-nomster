@@ -16,6 +16,9 @@ gem 'sprockets', '2.11.0'
 # Use simple_form for building forms
 gem 'simple_form'
 
+# Use devise for User Authentication
+gem 'devise', '>= 3.2.4'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
