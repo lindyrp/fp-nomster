@@ -43,6 +43,12 @@ gem 'rails_12factor', group: :production
 # Use Kaminari for pagination of results
 gem 'kaminari'
 
+# Use Geocoder to convert map coordinates for database
+gem 'geocoder'
+
+# Use Figaro for ENV variable
+gem 'figaro', ">=1.0.0"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
