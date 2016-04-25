@@ -16,7 +16,9 @@ Nomster::Application.routes.draw do
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
-  resources :places
+  resources :places do
+    resources :comments, only: :create
+  end
   # The priority is based upon order of creation; first created -> highest priority.
 
   # Example resource route with options:
