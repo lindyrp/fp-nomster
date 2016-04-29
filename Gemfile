@@ -55,6 +55,9 @@ gem 'carrierwave'
 # Use fog so carrierwave can communicate with AS3
 gem 'fog', '~> 1.3.1'
 
+# MiniMagick to generate thumbnails
+gem 'mini_magick'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
